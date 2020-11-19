@@ -12,6 +12,7 @@ int main()
 
 	if (a % 2 == 0)
 	{
+
 		a++;
 	}
 	for (int i = a; i <= b; i += 2)
