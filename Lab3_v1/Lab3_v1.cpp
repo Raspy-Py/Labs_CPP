@@ -18,7 +18,7 @@ int main()
 		do
 		{
 			Np = Nc;
-			Nc = Nc * (-1) * X * X / ((2 *  N - 1) * (2 * N));
+			Nc = Nc * (-1) * X * X / ((2 * N - 1) * (2 * N));
 			Sum += Nc;
 			N++;
 		} while (abs(Nc + Np) > Eps);
