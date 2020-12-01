@@ -6,8 +6,8 @@ float min(float a, float b);
 
 int main()
 {
-    float PI = 3.141592;
-    float a, b; // Enter data
+    float PI = 3.141592; // Defining Pi
+    float a, b; // Input data
     float U, V, W; // Res
 
     cout << "Enter a:";
