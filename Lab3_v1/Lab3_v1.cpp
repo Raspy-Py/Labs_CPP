@@ -26,6 +26,6 @@ int main()
 	}
 	else
 	{
-		cout << "\nInvalid value of X=" << X;
+		cout << "Invalid value of X=" << X;
 	}
 }

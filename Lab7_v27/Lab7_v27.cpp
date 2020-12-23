@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void generateMarks(float*, int l);
+void genMarks(float*, int l);
 void bubbleSort(float*, int l);
 float findAvarage(float*, int l);
 
@@ -12,7 +12,7 @@ int main()
     float marks[l];
     float avarage;
 
-    generateMarks(marks, l);
+    genMarks(marks, l);
     bubbleSort(marks, l);
 
     avarage = findAvarage(marks, l);
@@ -20,9 +20,8 @@ int main()
     cout << "Total mark: " << avarage;
 }
 
-void generateMarks(float* p, int l)
+void genMarks(float* p, int l)
 {
-
     for (int i = 0; i < l; i++)
     {
         cout << "Mark #" << i + 1 << ": ";
@@ -52,12 +51,12 @@ float findAvarage(float*p, int l)
     float avr;
     float sum = 0;
 
-    if (*(p+1) != *p)
+    if (*(p + 1) != *p)
     {
         l--;
         p++;
     }
-    if (*(p+l) != *(p + l -1))
+    if (*(p + l) != *(p + l - 1))
     {
         l--;
     }
